@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 import (
 	"github.com/psilva261/sparkle/js/unistring"

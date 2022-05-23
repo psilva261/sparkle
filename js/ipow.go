@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 // ported from https://gist.github.com/orlp/3551590
 

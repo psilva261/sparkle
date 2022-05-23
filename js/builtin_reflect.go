@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 func (r *Runtime) builtin_reflect_apply(call FunctionCall) Value {
 	return r.toCallable(call.Argument(0))(FunctionCall{

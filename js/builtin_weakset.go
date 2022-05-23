@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 type weakSetObject struct {
 	baseObject

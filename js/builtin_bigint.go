@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 func (r *Runtime) bigintproto_valueOf(call FunctionCall) Value {
 	this := call.This

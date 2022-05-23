@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 type weakMap uint64
 

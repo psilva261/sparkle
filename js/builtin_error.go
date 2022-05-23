@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 func (r *Runtime) builtin_Error(args []Value, proto *Object) *Object {
 	obj := r.newBaseObject(proto, classError)

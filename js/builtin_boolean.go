@@ -1,4 +1,4 @@
-package sparkle
+package js
 
 func (r *Runtime) booleanproto_toString(call FunctionCall) Value {
 	var b bool
