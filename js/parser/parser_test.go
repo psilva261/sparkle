@@ -1019,6 +1019,9 @@ func TestPosition(t *testing.T) {
 		// Out of range, idx1 (error condition)
 		is(parser.slice(1, 128), "")
 
+		// Out of range, idx0 > idx1
+		is(parser.slice(15, 1), "")
+
 		is(parser.str[0:0], "")
 		is(parser.slice(1, 1), "")
 

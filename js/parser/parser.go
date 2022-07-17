@@ -204,7 +204,7 @@ func ParseFunction(parameterList, body string, options ...Option) (*ast.Function
 func (self *_parser) slice(idx0, idx1 file.Idx) string {
 	from := int(idx0) - self.base
 	to := int(idx1) - self.base
-	if from >= 0 && to <= len(self.str) {
+	if from >= 0 && to <= len(self.str) && from <= to {
 		return self.str[from:to]
 	}
 
